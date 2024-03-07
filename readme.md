@@ -1,6 +1,6 @@
 # Installation
 
-    sudo npm i --location=global git@https://github.com/mmssolutionsio/migrate-livingdocs-build.git
+    sudo npm i --location=global git@github.com:mmssolutionsio/migrate-livingdocs-build.git
 
 ## Update
     
