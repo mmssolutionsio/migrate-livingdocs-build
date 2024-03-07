@@ -1,0 +1,37 @@
+{
+  "name": "nsfd_livingdocs-build-migrate",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "nhs livingdocs design migration and build cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "tset"
+  },
+  "bin": {
+    "nhs-ld-build": "./bin/build.js",
+    "nhs-ld-migrate": "./bin/migrate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mms-neidhartschoen/nsfd_livingdocs-build-migrate.git"
+  },
+  "keywords": [
+    "livingdocs",
+    "v2"
+  ],
+  "author": "NHS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mms-neidhartschoen/nsfd_livingdocs-build-migrate/issues"
+  },
+  "homepage": "https://github.com/mms-neidhartschoen/nsfd_livingdocs-build-migrate#readme",
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "globby": "^13.2.2",
+    "html-minifier": "^4.0.0",
+    "lodash": "^4.17.21",
+    "winston": "^3.10.0"
+  }
+}
