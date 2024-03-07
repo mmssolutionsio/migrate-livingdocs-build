@@ -1,10 +1,10 @@
 # Installation
 
-    sudo npm i --location=global git@github.com:mms-neidhartschoen/nsfd_livingdocs-build-migrate.git
+    sudo npm i --location=global git@https://github.com/mmssolutionsio/migrate-livingdocs-build.git
 
 ## Update
     
-    sudo npm update nsfd_livingdocs-build-migrate --location=global
+    sudo npm update migrate-livingdocs-build --location=global
 
 # Usage
 
