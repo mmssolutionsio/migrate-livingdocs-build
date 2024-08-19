@@ -20,7 +20,7 @@
   "homepage": "https://github.com/mmssolutionsio/migrate-livingdocs-build#readme",
   "dependencies": {
     "archiver": "^6.0.1",
-    "cheerio": "^1.0.0-rc.12",
+    "cheerio": "1.0.0-rc.12",
     "fs": "^0.0.1-security",
     "globby": "^13.2.2",
     "html-minifier": "^4.0.0",
