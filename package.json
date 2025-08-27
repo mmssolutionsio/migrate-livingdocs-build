@@ -1,6 +1,6 @@
 {
   "name": "migrate-livingdocs-build",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "nhs livingdocs design migration and build cli",
   "main": "index.js",
