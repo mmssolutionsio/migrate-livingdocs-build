@@ -25,8 +25,7 @@ function removeFile(path) {
 
 function minifyHtml(s) {
   return s ? s
-    .replace(/\>[\r\n ]+\</g, "><")  // Removes new lines and irrelevant spaces which might affect layout, and are better gone
-    .replace(/(<.*?>)|\s+/g, (m, $1) => $1 ? $1 : ' ')
+    .replace(/\>[\s]+\</g, "><")  // Removes new lines and irrelevant spaces which might affect layout, and are better gone
     .trim()
     : "";
 }
